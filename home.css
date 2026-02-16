@@ -13,10 +13,10 @@ button:hover
 
 #menu 
 {
-  list-style: none;
-  border-radius: 10px;
-  
-  
+  background: rgba(0,0,0,0.45);
+  padding: 12px 18px;
+  margin: 0;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.5);
 }
 
 #menu li 
@@ -63,3 +63,66 @@ button {
     color: #ff6b6b;
     font-size: 1.2rem;
 }
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    max-width: auto;
+    margin: auto ;
+    padding: 40px 20px;
+}
+.home-content h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+    color:#e5e4e7;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    text-decoration: underline;   
+}
+.home-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color:#e5e4e7;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.navbar{
+  position: absolute;
+  top: 20px;
+  align-items: center;
+  gap: 12px;
+}
+.navbar button{
+  font-size: 20px;
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+
+.qr-code, .password-generator{
+  background: rgba(255,255,255,0.06);
+  border-radius: 12px;
+  padding: 18px;
+  margin: 20px auto;
+  width: min(880px, 92%);
+  color: #f0eef3;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.45);
+  text-align: center;
+}
+
+.qr-code h2, .password-generator h3{
+  margin: 0 0 8px 0;
+  color: #fff;
+}
+
+.qr-code p, .password-generator p{
+  margin: 0 0 14px 0;
+  color: #e9e7ea;
+}
+
+.qr-code button, .password-generator button{
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
