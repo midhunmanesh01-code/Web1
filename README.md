@@ -71,18 +71,21 @@ Planned enhancements include:
 - HTML5
 - CSS3
 - Javascript
-- 
+
 ---
 
 ## 📂 Project Structure
-webpage1/ │
-├── index.html (Login Page)
-├── home.html (Home Page)   
-├── about.html (About Page)    
-├── contact.html (Contact Page)
-├── qrcode.html (QR Generator)
-├── password.html (Password Generator)
 
+```
+webpage1/
+│
+├── index.html      # Login Page
+├── home.html       # Home Page
+├── about.html      # About Page
+├── contact.html    # Contact Page
+├── qrcode.html     # QR Code Generator Page (UI)
+└── password.html   # Password Generator Page (UI)
+```
 ---
 
 ## 👨‍💻 Author
