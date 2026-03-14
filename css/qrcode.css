@@ -131,3 +131,6 @@ button:hover
     border: 7px solid rgba(24, 24, 24, 0.1);
     cursor: pointer;
 }
+.home button:hover {
+    background-color: #042852;
+}
